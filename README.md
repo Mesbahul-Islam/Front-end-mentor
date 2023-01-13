@@ -7,3 +7,4 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | Tags  | Challanges | Live|  Code|  Type| 
 | --- | -- |  -- | --  |  -- |
 | HTML--CSS      |  QR Code Component | [Live](https://qr-code-component-mesbahul.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/Qr%20code) |Free|
+| HTML--CSS      |  Product Preview Card Component | [Live](https://product-preview-card-mesbahul.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/Product_preview_card_component) |Free|

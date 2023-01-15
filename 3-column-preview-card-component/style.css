@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --sedanbg: hsl(31, 77%, 52%);
+    --suvbg: hsl(184, 100%, 22%);
+    --luxurybg: hsl(179, 100%, 13%);
+    --paragrah: hsla(0, 0%, 100%, 0.75);
+    --headings: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    min-height: 98vh;
+    max-width: 65rem;
+    align-items: center;
+    justify-content: center;
+}
+.sedan{
+    background-color: var(--sedanbg);
+    color: var(--headings);
+    padding: 3rem 4rem 3rem 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.sedandesc{
+    padding-top: 4rem;
+    color: var(--paragrah);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.head{
+    padding-top: 1rem;
+    color: var(--headings);
+    font-size: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.suv{
+    background-color: var(--suvbg);
+    color: var(--headings);
+    padding: 3rem 4rem 3rem 3rem;
+}
+.suvdesc{
+    padding-top: 4rem;
+    color: var(--paragrah);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.luxury{
+    background-color: var(--luxurybg);
+    color: var(--headings);
+    padding: 3rem 4rem 3rem 3rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.luxurydesc{
+    padding-top: 4rem;
+    color: var(--paragrah);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.sedanlearn{
+    color: var(--sedanbg);
+    background: white;
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sedanlearn:hover{
+    color: var(--paragrah);
+    background: var(--sedanbg);
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.suvlearn{
+    color: var(--suvbg);
+    background: white;
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.suvlearn:hover{
+    color: var(--paragrah);
+    background: var(--suvbg);
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.luxurylearn{
+    color: var(--luxurybg);
+    background: white;
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.luxurylearn:hover{
+    color: var(--paragrah);
+    background: var(--luxurybg);
+    border: 1px solid white;
+    width: fit-content;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 70%;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+footer{
+    font-size: 11px; 
+    text-align: center;
+}
+footer a {
+    color: hsl(228, 45%, 44%);
+}
+@media only screen and (max-width: 975px){
+    :root{
+        font-size: 13px;
+    }
+    main{
+        width: 95%;
+    }
+
+    .sedanlearn{
+        width: 80%;
+        padding: 0.5rem;
+
+    }
+
+    .suvlearn{
+        width: 80%;
+        padding: 0.5rem;
+    }
+    .luxurylearn{
+        width: 80%;
+        padding: 0.5rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    :root{
+        font-size:12px;
+    }
+    main{
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .sedan{
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0px;
+    }
+    .luxury{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+}

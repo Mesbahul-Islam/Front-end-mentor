@@ -11,4 +11,4 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | HTML--CSS      |  3 Column Preview Card Component | [Live](https://3-column-preview-mesbahul.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/3-column-preview-card-component) |Free|
 | HTML--CSS      |  Single Price Grid Component | [Live](https://single-price-grid-mesbahul-islam.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/single-price-grid) |Free|
 | HTML--CSS      | Four Card Feature Section | [Live](https://four-card-feature-section-mesbahul.netlify.app/#) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/four-card-feature-section) |Free|
-| HTML--CSS      | Social Proof Section | [Live](https://four-card-feature-section-mesbahul.netlify.app/#) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/four-card-feature-section) |Free|
+| HTML--CSS      | Social Proof Section | [Live](https://social-proof-section-mesbahul-islam.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/social-proof-section) |Free|

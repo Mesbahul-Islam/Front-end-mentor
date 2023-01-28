@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --heading: hsl(234, 12%, 34%);
+    --text: hsl(229, 6%, 66%);
+    --bg: hsl(0, 0%, 98%);
+    font-size: 15px;
+
+}
+
+body{
+    background-color: var(--bg);
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    'heading heading heading'
+    '. team .'
+    'sup team calc'
+    'sup karma calc'
+    '. karma .'
+    ;
+    width: 80%;
+    margin: auto;
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.upper{
+    margin-top: 1rem;
+    grid-area: heading;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: 200;
+    
+
+}
+.supervisor{
+    grid-area: sup;
+    background-color: white;
+    padding: 2rem;
+    border-top: 3px solid var(--cyan);
+    display: flex;
+    height: 15rem;
+    box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-webkit-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-moz-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+}
+.team{
+    grid-area: team;
+    background-color: white;
+    padding: 2rem;
+    border-top: 3px solid var(--red);
+    display: flex;
+    height: 15rem;
+    box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-webkit-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-moz-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+}
+.karma{
+    grid-area: karma;
+    background-color: white;
+    padding: 2rem;
+    border-top: 3px solid var(--orange);
+    display: flex;
+    height: 15rem;
+    box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-webkit-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-moz-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+}
+.calc{
+    grid-area: calc;
+    background-color: white;
+    padding: 2rem;
+    border-top: 3px solid var(--blue);
+    display: flex;
+    height: 15rem;
+    box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-webkit-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+-moz-box-shadow: 10px 10px 17px -9px rgba(0,0,0,0.39);
+}
+img{
+    width: 100%;
+}
+.flex-item1{
+    align-self: flex-end;
+}
+.flex-item2{
+    align-self: flex-end;
+}
+.flex-item3{
+    align-self: flex-end;
+}
+.flex-item4{
+    align-self: flex-end;
+}
+.heading{
+    font-weight: 200;
+    color: var(--heading);
+}
+.subtext{
+    font-weight: 600;
+}
+.desc{
+    font-weight: 200;
+    color: var(--text);
+}
+.head{
+    font-weight: 400;
+    color: var(--heading);
+}
+
+@media only screen and (max-width: 500px){
+    main{
+        grid-template-areas:
+        'heading'
+        'sup'
+        'team'
+        'calc'
+        'karma'
+        ;
+    }
+}

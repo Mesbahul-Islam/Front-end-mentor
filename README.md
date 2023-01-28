@@ -9,4 +9,4 @@ This repository is a collection of all my solutions I submitted at [frontendment
 | HTML--CSS      |  QR Code Component | [Live](https://qr-code-component-mesbahul.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/Qr%20code) |Free|
 | HTML--CSS      |  Product Preview Card Component | [Live](https://product-preview-card-mesbahul.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/Product_preview_card_component) |Free|
 | HTML--CSS      |  3 Column Preview Card Component | [Live](https://3-column-preview-mesbahul.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/3-column-preview-card-component) |Free|
-
+| HTML--CSS      |  Single Price Grid Component | [Live](https://single-price-grid-mesbahul-islam.netlify.app/) | [Code](https://github.com/Mesbahul-Islam/Front-end-mentor/tree/master/single-price-grid) |Free|

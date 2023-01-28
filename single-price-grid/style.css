@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --light_cyan: hsl(218, 22%, 67%);
+    --light_gray: hsl(204, 43%, 93%);
+    --yellow: hsl(71, 73%, 54%);
+    font-size: 16px;
+}
+body{
+    background-color: var(--light_gray);
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+.flexcontainer{
+    margin: auto;
+    width: 60%;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.community{
+    background-color:white;
+    padding: 3rem;
+    font-family: 'Karla', sans-serif;
+}
+.monthly{
+    background-color: var(--cyan);
+    padding: 3rem;
+    font-family: 'Karla', sans-serif;
+
+}
+.us{
+    background-color:hsl(179, 62%, 70%);
+    padding: 3rem;
+    font-family: 'Karla', sans-serif;
+}
+
+.join{
+    color: var(--cyan);
+    font-weight: 700;
+}
+.hassle{
+    color: var(--yellow);
+    padding-top: 1.5rem;
+}
+.para{
+    color: var(--light_cyan);
+    padding-top: 1rem;
+}
+.monthly-heading{
+    color: white;
+}
+.flex-container2{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    color: hsl(179, 62%, 70%);
+}
+
+h1{
+    padding-right: 0.7rem;
+    color: white;
+}
+.full-access{
+    color: white;
+    padding-top: 0.5rem;
+}
+.button1{
+    background-color: var(--yellow);
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 7px 18px -1px rgba(0,0,0,0.35);
+-webkit-box-shadow: 2px 7px 18px -1px rgba(0,0,0,0.35);
+-moz-box-shadow: 2px 7px 18px -1px rgba(0,0,0,0.35);
+}
+
+.why{
+    color: white;
+    padding-bottom: 1rem;
+}
+.tutorial{
+    color: var(--light_gray);
+    line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 500px){
+    main{
+        height: fit-content;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+    .grid_container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .flexcontainer{
+        width: 90%;
+    }
+}
